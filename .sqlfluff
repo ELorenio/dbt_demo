@@ -87,7 +87,7 @@ operator_new_lines = after
 #[sqlfluff:rules:L010]
 [sqlfluff:rules:capitalisation.keywords]
 # Keywords
-capitalisation_policy = upper
+capitalisation_policy = None
 # Comma separated list of words to ignore for this rule
 ignore_words = None
 ignore_words_regex = None
@@ -110,7 +110,7 @@ allow_scalar = False
 #[sqlfluff:rules:L014]
 [sqlfluff:rules:capitalisation.identifiers]
 # Unquoted identifiers
-extended_capitalisation_policy = upper
+extended_capitalisation_policy = lower
 # Comma separated list of words to ignore for this rule
 ignore_words = None
 ignore_words_regex = None
